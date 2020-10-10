@@ -1,0 +1,22 @@
+<suite name="Suite">
+    <test name = "UCG A" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.ViewAllCollection"/>
+            <class name="com.Module.FilterAllCollectionByProvider"/>
+            <class name="com.Module.FilterAllCollectionUsingStartDateAndEndDate"/>
+            <class name="com.Module.SearchAllCollectionWithCorrectCredentila"/>
+            <class name="com.Module.SearchAllCollectionWithIncorrectCedentials"/>
+            <class name="com.Module.DownloadAllCollections"/>
+            <class name="com.Module.ReprintRecipt"/>
+        </classes>
+    </test>
+
+    <test name = "UCG B" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.LoginWithCorrectDetails"/>
+            <class name="com.Module.LoginWithWrongDomain"/>
+            <class name="com.Module.LoginWithWrongPassword"/>
+            <class name="com.Module.LoginWithWrongEmail"/>
+        </classes>
+    </test>
+</suite>

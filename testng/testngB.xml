@@ -1,0 +1,28 @@
+<suite name="Suite">
+    <test name = "UCG A" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.ViewPendingCollections"/>
+            <class name="com.Module.FilterPendingCollectionsInCorrectCredentials"/>
+            <class name="com.Module.FilterPendingCollectionWithCorrectDetails"/>
+            <class name="com.Module.SearchPendingCollectionWithCorrectCredentials"/>
+            <class name="com.Module.SearchPendingCollectionsWithInCorrectCredentials"/>
+            <class name="com.Module.DownloadPendingCollection"/>
+        </classes>
+    </test>
+
+    <test name = "UCG B" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.FilterVarienceReport"/>
+            <class name="com.Module.DownloadVarienceReport"/>
+        </classes>
+    </test>
+
+    <test name = "UCG C" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.ViewSettlementReport"/>
+            <class name="com.Module.FilterSettlementReportUsingDate"/>
+            <class name="com.Module.SearchSettlementReportUsingIncorrectCredentials"/>
+            <class name="com.Module.SearchSettlementReportUsingCorrectCredential"/>
+        </classes>
+    </test>
+</suite>
