@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "UCG A" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "UCG A" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.ViewAllCollection"/>
             <class name="com.Module.FilterAllCollectionByProvider"/>
@@ -11,7 +11,7 @@
         </classes>
     </test>
 
-    <test name = "UCG B" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "UCG B" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.LoginWithCorrectDetails"/>
             <class name="com.Module.LoginWithWrongDomain"/>

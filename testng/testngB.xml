@@ -17,7 +17,7 @@
         </classes>
     </test>
 
-    <test name = "UCG C" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "UCG C" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.ViewSettlementReport"/>
             <class name="com.Module.FilterSettlementReportUsingDate"/>
